@@ -36,7 +36,11 @@ namespace BookingUpForBeauty
         public static DateTime Schedule(string appointmentDateDescription)
         {
             //TODO: Implement the method as described in the document comments. 
-            throw new NotImplementedException("Please implement the (static) Appointment.Schedule() method");
+            //throw new NotImplementedException("Please implement the (static) Appointment.Schedule() method")
+            //Console.WriteLine(DateTime.Parse(appointmentDateDescription));
+            //Console.WriteLine(appointmentDateDescription);
+            return DateTime.Parse(appointmentDateDescription);
+
         }
 
         /// <summary>
@@ -53,7 +57,8 @@ namespace BookingUpForBeauty
         public static bool HasPassed(DateTime appointmentDate)
         {
             //TODO: Implement the method as described in the document comments. 
-            throw new NotImplementedException("Please implement the (static) Appointment.HasPassed() method");
+            //throw new NotImplementedException("Please implement the (static) Appointment.HasPassed() method");
+
         }
 
         /// <summary>

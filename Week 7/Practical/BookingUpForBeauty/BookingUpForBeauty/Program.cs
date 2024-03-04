@@ -15,3 +15,4 @@ Thread.CurrentThread.CurrentUICulture = enIeCulture;
 
 // When constructing strings from multiple elements you should use the StringBuilder class
 // https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder
+

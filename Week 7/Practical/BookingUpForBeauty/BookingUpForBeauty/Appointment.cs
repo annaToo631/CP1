@@ -58,6 +58,8 @@ namespace BookingUpForBeauty
         {
             //TODO: Implement the method as described in the document comments. 
             //throw new NotImplementedException("Please implement the (static) Appointment.HasPassed() method");
+            //appointmentDate=DateTime.Parse(appointmentDate.ToUniversalTime().ToString())
+            return DateTime.Now >appointmentDate;
 
         }
 
